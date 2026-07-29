@@ -5,7 +5,7 @@ Sistema completo desenvolvido para o gerenciamento de cadastros de alunos, compo
 
 # 🚀 Tecnologias Utilizadas
 
-Front-end
+## Front-end
 React - Biblioteca JavaScript para construção de interfaces
 
 Vite - Ferramenta de build rápida e moderna
@@ -15,7 +15,7 @@ React Router DOM - Gerenciamento de rotas e navegação
 CSS3 - Estilização personalizada com tema escuro (Dark Mode)
 
 
-Back-end
+## Back-end
 Node.js - Ambiente de execução JavaScript para o servidor
 
 Express - Framework para construção de rotas e APIs
@@ -54,28 +54,28 @@ Siga os passos abaixo para rodar a aplicação localmente:
 
 1. Configurando e Rodando o Back-end
 
-Entre na pasta do back-end
+## Entre na pasta do back-end
 cd backend
 
-Instale as dependências
+## Instale as dependências
 npm install
 
-Inicie o servidor do back-end
+## Inicie o servidor do back-end
 npm run dev
 
 
 2. Configurando e Rodando o Front-end
    
- Entre na pasta do front-end
+## Entre na pasta do front-end
 cd frontend
  
-Instale as dependências
+## Instale as dependências
 npm install
 
-Inicie o servidor de desenvolvimento do Vite
+## Inicie o servidor de desenvolvimento do Vite
 npm run dev
 
-Abra o navegador e acesse o endereço fornecido pelo Vite (geralmente http://localhost:5173).
+## Abra o navegador e acesse o endereço fornecido pelo Vite (geralmente http://localhost:5173).
 
 
 # 👩‍💻 Desenvolvido por
