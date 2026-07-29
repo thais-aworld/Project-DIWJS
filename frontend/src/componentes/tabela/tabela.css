@@ -1,0 +1,76 @@
+.tabela-container {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow-x: auto;
+  margin-top: 1.5rem;
+  background-color: #1e293b;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+}
+
+.tabela-alunos {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  color: #f8fafc;
+  font-size: 0.95rem;
+}
+
+.tabela-alunos th,
+.tabela-alunos td {
+  padding: 0.75rem;
+  border: 1px solid #334155; /* Bordas adaptadas para o modo escuro */
+  text-align: left;
+}
+
+.tabela-alunos th {
+  background-color: #334155; /* Fundo escuro elegante para o cabeçalho */
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.tabela-alunos td {
+  color: #cbd5e1;
+}
+
+.tabela-alunos tr:hover {
+  background-color: rgba(51, 65, 85, 0.4);
+}
+
+.acoes {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.btn-editar {
+  background-color: #eab308;
+  border: none;
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: opacity 0.2s;
+}
+
+.btn-editar:hover {
+  opacity: 0.9;
+}
+
+.btn-deletar {
+  background-color: #ef4444;
+  border: none;
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: opacity 0.2s;
+}
+
+.btn-deletar:hover {
+  opacity: 0.9;
+}

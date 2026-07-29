@@ -1,7 +1,8 @@
 import React from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
-import Formulario from '../../componentes/Formulario';
+import Formulario from '../../componentes/formulario';
 import { cadastrarAluno, atualizarAluno } from '../../api/alunorequest';
+import './AlunoCadastro.css';
 
 export default function AlunoCadastro() {
   const location = useLocation();
@@ -25,8 +26,10 @@ export default function AlunoCadastro() {
   };
 
   return (
-    <div style={{ padding: '2rem' }}>
-      <h2>{alunoParaEditar ? '✏️ Editar Aluno' : '➕ Novo Cadastro'}</h2>
+    <div className="cadastro-container">
+      <h2 className="cadastro-titulo">
+        {alunoParaEditar ? '✏️ Editar Aluno' : '➕ Novo Cadastro'}
+      </h2>
       <Formulario aoSubmeter={handleSubmit} alunoInicial={alunoParaEditar} />
     </div>
   );
