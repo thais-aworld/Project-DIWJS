@@ -1,9 +1,9 @@
--- 📚 Sistema de Alunos (Full-stack)
+# 📚 Sistema de Alunos (Full-stack)
 
 Sistema completo desenvolvido para o gerenciamento de cadastros de alunos, composto por uma interface moderna em React (Front-end) e integrado a uma API em Node.js (Back-end).
 
 
--- 🚀 Tecnologias Utilizadas
+# 🚀 Tecnologias Utilizadas
 
 Front-end
 React - Biblioteca JavaScript para construção de interfaces
@@ -21,7 +21,7 @@ Node.js - Ambiente de execução JavaScript para o servidor
 Express - Framework para construção de rotas e APIs
 
 
--- ✨ Funcionalidades
+# ✨ Funcionalidades
 
 👥 Listagem de Alunos: Visualização de todos os alunos cadastrados em formato de tabela.
 
@@ -34,7 +34,7 @@ Express - Framework para construção de rotas e APIs
 🎨 Tema Escuro Nativo: Interface estilizada para melhor experiência visual.
 
 
--- 📂 Estrutura do Projeto
+# 📂 Estrutura do Projeto
 
 Project-DIWJS/
 ├── backend/            # Código da API em Node.js e conexão com o banco de dados
@@ -48,36 +48,36 @@ Project-DIWJS/
     └── public/         # Arquivos estáticos 
 
 
--- ⚙️ Como Executar o Projeto
+# ⚙️ Como Executar o Projeto
 
 Siga os passos abaixo para rodar a aplicação localmente:
 
 1. Configurando e Rodando o Back-end
-   
-- Entre na pasta do back-end
+
+Entre na pasta do back-end
 cd backend
 
-- Instale as dependências
+Instale as dependências
 npm install
 
-- Inicie o servidor do back-end
+Inicie o servidor do back-end
 npm run dev
 
 
 2. Configurando e Rodando o Front-end
    
-- Entre na pasta do front-end
+ Entre na pasta do front-end
 cd frontend
-
-- Instale as dependências
+ 
+Instale as dependências
 npm install
 
-- Inicie o servidor de desenvolvimento do Vite
+Inicie o servidor de desenvolvimento do Vite
 npm run dev
 
 Abra o navegador e acesse o endereço fornecido pelo Vite (geralmente http://localhost:5173).
 
 
--- 👩‍💻 Desenvolvido por
+# 👩‍💻 Desenvolvido por
 
 Thais Amorim
