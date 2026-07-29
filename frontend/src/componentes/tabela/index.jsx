@@ -12,7 +12,6 @@ export default function Tabela({ alunos, aoDeletar, aoEditar }) {
             <th>CPF</th>
             <th>Data Nasc.</th>
             <th>Endereço</th>
-            <th>Ações</th>
           </tr>
         </thead>
         <tbody>
