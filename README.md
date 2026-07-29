@@ -34,20 +34,6 @@ Express - Framework para construção de rotas e APIs
 🎨 Tema Escuro Nativo: Interface estilizada para melhor experiência visual.
 
 
-# 📂 Estrutura do Projeto
-
-Project-DIWJS/
-├── backend/            # Código da API em Node.js e conexão com o banco de dados
-└── frontend/           # Aplicação web em React
-    ├── src/
-    │   ├── api/        # Configuração e chamadas de requisições HTTP (alunorequest)
-    │   ├── componentes/# Componentes reutilizáveis (Formulários, etc.)
-    │   ├── paginas/    # Páginas principais da aplicação (Início, Tabela, Cadastro)
-    │   ├── App.jsx     # Configuração das rotas principais
-    │   └── main.jsx    # Ponto de entrada da aplicação React
-    └── public/         # Arquivos estáticos 
-
-
 # ⚙️ Como Executar o Projeto
 
 Siga os passos abaixo para rodar a aplicação localmente:
@@ -78,6 +64,6 @@ npm run dev
 ## Abra o navegador e acesse o endereço fornecido pelo Vite (geralmente http://localhost:5173).
 
 
-# 👩‍💻 Desenvolvido por
+# 👩‍💻 Desenvolvido por:
 
-Thais Amorim
+Thaís Amorim
