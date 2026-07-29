@@ -13,7 +13,7 @@
 .form-group {
   margin-bottom: 1.25rem;
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
 }
 
 .form-group label {
